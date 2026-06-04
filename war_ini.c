@@ -59,6 +59,5 @@ int main() {
     }
 
     //chamando a função mostrar territorios
-    showTerritorios(mapa, (sizeof(mapa) / sizeof(mapa[0])));  //sizeof retorna o tamanho de bytes
-                                                              //todos os bytes / bytes[0] = 5
+    showTerritorios(mapa, (sizeof(mapa) / sizeof(mapa[0])));  //sizeof retorna o tamanho de bytes                                                 //todos os bytes / bytes[0] = 5
 }
